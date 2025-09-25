@@ -1,0 +1,8 @@
+<p *ngIf="results.length === 0">No results found.</p>
+<p *ngIf="results.length > 0">Found {{ results.length }} website(s).</p>
+
+<div *ngFor="let book of results" class="book-item">
+  <h3>{{ book.title }}</h3>
+  <p>{{ book.description }}</p>
+  <a [href]="book.link" target="_blank">🔗 Visit Site</a>
+</div>

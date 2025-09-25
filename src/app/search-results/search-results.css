@@ -1,0 +1,28 @@
+.book-item {
+    background: #fff8f0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(107, 66, 38, 0.2);
+    margin-bottom: 15px;
+}
+
+.book-item h3 {
+    color: #6b4226;
+    margin: 0 0 8px;
+}
+
+.book-item p {
+    margin: 0 0 8px;
+    font-size: 14px;
+    color: #4b2e2e;
+}
+
+.book-item a {
+    color: #6b4226;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.book-item a:hover {
+    color: #a0522d;
+}

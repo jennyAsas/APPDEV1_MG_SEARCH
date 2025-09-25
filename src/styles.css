@@ -1,1 +1,60 @@
-/* You can add global styles to this file, and also import other style files */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f5f0;
+    color: #4b2e2e;
+    margin: 0;
+    padding: 20px;
+}
+
+
+.app-title {
+    text-align: center;
+    color: #6b4226;
+    background-color: #e5d3b3;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(107, 66, 38, 0.3);
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #c2a878;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #6b4226;
+    box-shadow: 0 0 6px #6b4226;
+}
+
+
+h3 {
+    color: #6b4226;
+    border-bottom: 2px solid #c2a878;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+a {
+    color: #6b4226;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #a0522d;
+}
+
+div {
+    margin-bottom: 15px;
+    padding: 12px;
+    background-color: #fff8f0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(107, 66, 38, 0.2);
+}
